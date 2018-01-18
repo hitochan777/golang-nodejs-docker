@@ -1,5 +1,7 @@
 FROM node:9.3.0
 
+MAINTAINER hitochan777@gmail.com
+
 ENV GOLANG_VERSION 1.9.2
 
 RUN set -eux; \
